@@ -1,0 +1,83 @@
+body{
+	background-color: rgb(3, 57, 156);
+	font-family:"Arial", sans-serif;
+}
+nav{
+	background-color: rgb(94, 2, 157);
+	text-align:center;
+}
+#nav li {
+	position:relative;
+	display: inline-block;
+	background-color: rgb(94, 2, 157);/*colors dropdown*/
+}
+#nav li a {
+	color:rgb(234, 229, 0);
+ 	margin:8px;
+ 	font-size:20px;
+	display:block;
+    text-decoration:none;
+	width:200px; /* this is the width of the menu items */
+	line-height:35px; /* this is the height of the menu items */
+}        
+#nav li li a {
+	font-size:80%; /* smaller font size for sub menu items */
+	margin:0px;
+}      
+#nav li:hover {
+	background-color:rgb(47, 19, 162);
+} /* highlights current hovered list item and the parent list items when hovering over sub menus */
+/*--- Sublist Styles ---*/
+#nav ul {
+	position:absolute;
+	margin:0;
+	display:none; /* hides sublists */
+}
+#nav li:hover ul {
+	display:block;
+} /* shows sublist on hover */
+.title{
+	color:rgb(235, 169, 0);
+}
+td, p{
+	color:rgb(235, 230, 0);
+}
+table, td, tr{
+	padding:5px;
+}
+td{
+	border: 2px solid black;
+}
+td a{
+	text-decoration:none;
+	color:rgb(235, 230, 0);	
+}
+#horoscopetable td{
+	font-size:40px;
+	border:0px solid rgb(3, 57, 156);
+	float:left;
+	display:inline-block;
+	padding-left:45px;
+	padding-right:45px;
+}
+#sitename{
+	text-align:center;
+	font-weight:bold;
+	text-decoration:underline;
+	color:rgb(235, 169, 0);
+}
+#sitename a{
+	text-decoration:none;
+	color:rgb(235, 169, 0);
+}
+.horoscopeinfo{
+	color:rgb(235, 230, 0)
+}
+.image{
+	width:100px;
+	height:auto;
+}
+.special{
+	width:100px;
+	height:100px;
+}
